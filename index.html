@@ -1,0 +1,79 @@
+<html>
+<head>
+  <title>shroudBNC</title>
+  <meta name="description" content="shroudBNC is a modular IRC proxy written in C++/TCL." />
+  <meta name="keywords" content="shroudbnc,sbnc,irc proxy,irc bouncer,open source" />
+</head>
+<body>
+  <div>
+    <a name="shroudBNC"></a>
+    <h1 >shroudBNC</h1>
+
+    <p>shroudBNC is a modular IRC proxy written in C++. It is capable of proxying IRC connections for multiple users. Using TCL scripts it can be extended.</p>
+
+    <p>Among its features you can find a user-friendly web interface (written in TCL and PHP) which allows you to easily create and manage your users. Some <a href="/files/screenshots">screenshots</a> are also available.</p>
+
+    <p>A variety of operating systems are currently supported: Linux and FreeBSD (and possibly other variations of BSD).</p>
+
+    <a name="Features-summary"></a>
+    <h2 >Features (summary)</h2>
+
+    <ul>
+      <li>support for TCL scripts and partial emulation of eggdrop commands</li>
+      <li>web interface (which can easily be customized)</li>
+      <li>SSL support for both IRC and client connections; including support for client-certificates (and thus public key/passwordless authentication)</li>
+      <li>built-in flood protection (so you do not get "excess flood" errors)</li>
+      <li>module support (c++ shared libraries)</li>
+      <li>asynchronous dns resolving so the bouncer does not freeze while users reconnect</li>
+      <li>private messages are logged when users are not connected to the bouncer</li>
+      <li>support for IPv6</li>
+      <li>vhost.tcl: limit number of users per virtual host</li>
+      <li>virtual.tcl: adds "groups" and "virtual admins" who are able to create/manage users within their own group</li>
+      <li>lock.tcl: allows you to disable settings for specific users or globally</li>
+      <li>partyline.tcl: "internal" channels for bouncer users</li>
+      <li>and a lot more...</li>
+    </ul>
+
+    <a name="Downloads"></a>
+    <h2 >Downloads</h2>
+
+    <p>The following downloads are currently available:</p>
+
+    <a name="shroudBNC-13"></a>
+    <h3 >shroudBNC 1.3</h3>
+
+    <ul>
+      <li>source .tar.gz:    <a href="/files/sbnc/sbnc-1.3.9.tar.gz" class="external">sbnc-1.3.9.tar.gz</a></li>
+      <li>Packages:           <a class="external" href="beta13.html">here</a></li>
+      <li>web interface .tar.gz:    <a class="external" href="/files/web/">here</a></li>
+    </ul>
+
+    <a name="shroudBNC-development-git-access"></a>
+    <h3 >shroudBNC development (Git access)</h3>
+
+    <ul>
+      <li>GitHub:    <a class="external" href="http://github.com/gunnarbeutner/shroudbnc">http://github.com/gunnarbeutner/shroudbnc</a></li>
+      <li>Git URL:    git://github.com/gunnarbeutner/shroudbnc.git</li>
+    </ul>
+
+    <p>If you plan to submit patches for shroudBNC you should use the Git repository.</p>
+
+    <a name="Support"></a>
+    <h2 >Support</h2>
+
+    <p>Are you having problems with installing or running shroudBNC?</p>
+
+    <p>In case you have not found a solution in the README files which are contained in the shroudBNC .tar.gz you can try the following support methods:</p>
+
+    <ul>
+      <li><a href="http://wiki.shroudbnc.info/" class="external">Wiki:</a> - Our wiki provides information about setting up shroudBNC and frequently asked questions.</li>
+      <li>IRC: #sbnc @ irc.quakenet.org    - There's usually someone available at our IRC channel who can help you with your questions.</li>
+      <li><a href="https://bugs.launchpad.net/shroudbnc" class="external">Bug Tracker</a></li>
+    </ul>
+
+    <p>We offer a lot of support for shroudBNC - however you can also support us:</p>
+
+    <p><a href="http://sourceforge.net/donate/index.php?group_id=133833" class="external">Donations</a> will help me to keep working on this project.</p>
+  </div>
+</body>
+</html>
